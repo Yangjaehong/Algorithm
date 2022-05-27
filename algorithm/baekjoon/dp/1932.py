@@ -3,6 +3,7 @@ t = []
 for i in range(n):
     t.append(list(map(int, input().split())))
 
+
 for i in range (1,len(t)):
     for j in range(len(t[i])):
         if j == 0:
